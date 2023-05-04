@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <style>
+        h1{
+            font-size:xx-large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkslategray;
+            text-align:center;
+
+            
+        }
+        h3{
+            font-family: cursive;
+            color:darkslategray;
+            text-align: center;
+        }
+        label{
+            font-size:large;
+            font-weight: bolder;
+            font-family: cursive;
+            color:darkslategray;
+        }
+        body{
+           background-color:goldenrod;
+        }
+        #contact{
+        border-bottom: 1px solid ; color: darkslategray;
+        border-top:1px solid; color:darkslateblue;
+        }
+        #submit{
+            box-sizing: border-box;
+            box-shadow: none;
+            margin-left: 55px;
+            background-color:green;
+            font-weight: bolder;
+            width:45%;
+            font-family: cursive;
+        }
+        #comment{
+            box-sizing:content-box;
+            border-bottom: 500px ;
+            padding-bottom: 100px;
+           
+
+        }
+        #button{
+            box-sizing: border-box;
+            box-shadow: none;
+            background-color: red;
+            font-weight: bolder;
+            width:45%;
+            font-family: cursive;
+            
+
+        }
+        #address{
+        border-bottom: 1px solid ; color: darkslategray;
+        border-top:1px solid; color:darkslateblue;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1 id="address">MY ADDRESS MAP</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6296.799796829434!2d39.1859228543555!3d-6.166186900966226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185cd05c2de03475%3A0x416889b99b5fabbb!2sCulture%2C%20Vuga%20Rd%2C%20Zanzibar!5e0!3m2!1sen!2stz!4v1683006861948!5m2!1sen!2stz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    <h1 id="contact">CONTACT FORM</h1></id>
+    <form id="form">
+        <label>Name: </label>
+        <input id="name" type="text" placeholder="name"size="156px"><br><br>
+        <label>Address:</label>
+        <input id="address" type="text" placeholder="address"size="153px"><br><br>
+        <label>Email:<em></em><label>
+        <input id="email" type="text" placeholder="email@gmail.com" size="155px"><br><br>
+        <label>Comments:<label>
+        <input id="comment" type="text" placeholder="comment" size="150px" ><br><br><br>
+        <input id="submit" onclick="test()" type="submit" value="SUBMIT">
+        <a href="index.html"><input id="button" type="button" value="BACK"></a>
+       
+        
+    </form>
+    <h3 ><a href="login.html">LOGIN</a></h3>
+    <script src="cv.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        color: darkslategray;
+        border-bottom: 1px solid ; color: darkslategray;
+        border-top:1px solid; color:darkslateblue;
+    }
+    body{
+        background-color: goldenrod;
+    }
+    h3{
+        font-family: cursive;
+    }
+    label{
+            font-size:large;
+            font-weight: bolder;
+            font-family: cursive;
+            color: darkslategray;
+        }
+        #submit{
+            box-sizing: border-box;
+            box-shadow: none;
+            background-color:green;
+            font-weight: bolder;
+            width:100%;
+            font-family: cursive;
+        }
+       
+
+</style>
+<body>
+    <h1>LOGIN</h1>
+    <form id="login">
+        <label>Username:</label>
+        <input id="username" type="text" placeholder="username" size="100px"><br><br>
+        <label>Password:</label>
+        <input id="password" type="text" placeholder="password" size="101px"><br><br>
+        <input id="submit" onclick="login()" type="submit" value="LOGIN"><br><br>
+       
+        <h3 ><a href="index.html">HOME PAGE</a>
+            <a href="contact_us.html">CONTACT PAGE</a></h3>
+       
+
+
+    </form>
+    
+
+
+    <script src="login.js"></script>
+    
+</body>
+</html>
